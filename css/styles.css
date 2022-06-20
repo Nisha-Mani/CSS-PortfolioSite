@@ -65,6 +65,11 @@ h2 {
   line-height: 0.5;
 }
 
+p{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: normal;
+}
+
 h3 {
   color: #11999E;
 }
