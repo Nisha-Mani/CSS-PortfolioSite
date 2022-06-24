@@ -31,19 +31,19 @@
 }
 
 hr {
-  border-color: lightgrey;
-  border-style: dotted none none;
-  border-width: 8px;
+  border:dotted lightgrey 8px;
+  border-bottom: none;
   background-color: #DBF6E9;
-  height: 0%;
   width: 10%;
-  align-content: center;
-  line-height: 5;
+  margin: auto;
+  margin-left:45% !important;
+  margin-right:45% !important;
 }
 
 body {
   margin: 0;
   text-align: center;
+  background-color: #DBF6E9;
 }
 
 h1 {
@@ -65,19 +65,31 @@ h2 {
   line-height: 0.5;
 }
 
+h3 {
+  color: #61cbcb;
+}
 p{
   font-family: 'Red Hat Display', sans-serif;
   font-weight: normal;
+  font-size: 1.1rem;
+  color: #40514E;
 }
-
-h3 {
-  color: #11999E;
-}
-
 a {
+  color: #61cbcb;
+  display: inline-block;
+  margin: 30px 20px ;
+  text-decoration: none;
+}
+
+a:hover{
   color: #EAF6F6;
 }
 
+.contact-me{
+  margin: 100px 0;
+  line-height: 3;
+  font-size: 1.1rem;
+}
 .skill-row {
   width: 50%;
   margin: 100px auto;
@@ -113,11 +125,13 @@ a {
   background-color: #DBF6E9;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  line-height: 2;
+  margin: 100px 0;
 }
 
 .bottomContainer {
   background-color: #11999E;
+  position: absolute;
+  width: 100%;
 }
 
 .btn {
@@ -130,9 +144,9 @@ a {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1rem;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
